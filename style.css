@@ -1,0 +1,144 @@
+:root{
+    --blue : #49a6e9;
+    --backgoundcolor : #f1f5f8;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: hsl(210, 36%, 96%);
+    columns: hsl(209, 61%, 16%);
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+
+
+
+main{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    /* border: 2px solid blue; */
+    
+    
+}
+  .title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  .underLine {
+    height: 0.25rem;
+    width: 10rem;
+    background: var(--blue) ;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container {
+    width: 70vw;
+    height: 50vw;
+    /* border: 2px solid blue; */
+    
+  }
+  .review {
+    position: relative;
+    background-color: white;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s linear;;
+    text-align: center;
+    background-image: linear-gradient(to bottom , rgba(128, 128, 128, 0.164), white);
+    width:  600px;
+    margin: auto;
+    
+    /* border: 2px solid blue;  */
+
+  }
+  .review:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.596);;
+  }
+  .profileImg {
+    /* position: relative; */
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 1.5rem;
+    border: 8px solid var(--blue);
+    
+
+
+  }
+  .personImg {
+    height: 150px;
+    width: 150px;
+    top: 6.3%;
+    right: 38.7%;
+    /* bottom: 90%; */
+    object-fit: cover;
+    border-radius: 100%;
+    position: absolute;
+    margin-bottom: 122px;
+    /* border: 2px solid blue; */
+
+  }
+ 
+  .author {
+    margin-bottom: 0.25rem;
+    letter-spacing: 6px;
+    font-size: large;
+    color: rgb(41, 40, 40);
+  }
+  .job {
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    color: hsl(205, 78%, 60%);
+    font-size: 0.85rem;
+  }
+  .info {
+    margin-bottom: 0.75rem;
+    font-size: large;
+    color: gray;
+  }
+  .prevBtn,
+  .nextBtn {
+    /* color:  hsl(205, 90%, 76%); */
+    font-size: 1.25rem;
+    background: transparent;
+    border-color: transparent;
+    margin: 0 0.5rem;
+    transition: sall 0.3s linear;;
+    cursor: pointer;
+   
+    /* border: 2px solid blue; */
+
+  }
+  .prevBtn:hover,
+  .nextBtn:hover {
+   background-color: rgba(128, 128, 128, 0.164);
+   border-radius: 10px;
+  }
+  .randomBtn {
+    margin-top: 0.5rem;
+    background: hsl(205, 100%, 96%);
+    color: var(--blue);
+    padding: 0.25rem 0.5rem;
+    text-transform: capitalize;
+    border-radius: 10px ;
+    transition:all 0.3s linear;
+    border-color:   hsl(205, 78%, 60%);;
+    cursor: pointer;
+  }
+  .randomBtn:hover {
+    background-color: hsl(205, 78%, 60%);;
+    color: hsl(205, 86%, 17%);
+  }
+  

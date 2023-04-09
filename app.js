@@ -69,11 +69,11 @@ let currentItem = 0;
   }
   // show next person
   nextBtn.addEventListener("click", function () {
-    currentItem++;
     prevBtn.style.display = "inline-block"
+    currentItem++;
     if (currentItem > reviews.length - 1) {
-      currentItem--;
       nextBtn.style.display = "none"
+      currentItem--;
 
     }
     showPerson(currentItem);
